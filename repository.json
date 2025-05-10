@@ -1,5 +1,6 @@
 {
   "name": "Cristian Gavrilas Add-ons",
   "url": "https://github.com/cgavrilas/homeassistant-addons",
-  "maintainer": "cgavrilas"
+  "maintainer": "cgavrilas",
+  "addons": ["mppsolar_mqtt"]
 }
