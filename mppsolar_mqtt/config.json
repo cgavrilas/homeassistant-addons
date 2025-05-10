@@ -1,0 +1,14 @@
+{
+  "name": "MPP Solar MQTT",
+  "version": "1.0",
+  "slug": "mppsolar_mqtt",
+  "description": "Trimite date de la invertor Voltronic prin mppsolar și primește comenzi prin MQTT.",
+  "startup": "application",
+  "boot": "auto",
+  "host_network": true,
+  "privileged": ["tty"],
+  "devices": ["/dev/ttyS0"],
+  "options": {},
+  "schema": {},
+  "image": "local/mppsolar_mqtt"
+}
