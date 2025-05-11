@@ -6,7 +6,7 @@
   "startup": "application",
   "boot": "auto",
   "host_network": true,
-  "privileged": ["tty"],
+  "privileged": ["SYS_RAWIO", "SYS_ADMIN"],
   "devices": ["/dev/ttyS0"],
   "options": {},
   "schema": {},
